@@ -1,0 +1,8 @@
+FROM node:alpine
+COPY . /partb
+CMD node /partb/ankush.js
+
+docker build -t ankush01 .
+docker images
+docker ps -a
+docker run -p 4000:4000 ankush01
