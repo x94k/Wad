@@ -1,0 +1,101 @@
+index
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="header">
+        <h1>Page Title</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="index.html" class="ui-btn-active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="login.html">Login/Register</a></li>
+        </ul>
+
+        <div data-role="content" style="text-align: center;">
+            <b><h1>Apple</h1></b>
+        </div>
+
+        <div data-role="content">
+            <img src="image1.jpg" alt="">
+        </div>
+
+
+    </div><!-- /navbar -->
+
+    <div data-role="footer">
+        <div class="foot" style="text-align: center;">
+            <ul>
+                <li><a href="#" class="ui-btn-active">@copyright....</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div>
+
+
+</body>
+
+</html>
+
+
+products
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="header">
+        <h1>Page Title</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="ui-btn-active">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="login.html">Login/Register</a></li>
+        </ul>
+        <div data-role="header">
+        <h1>Smartphones</h1>
+    </div>
+        <div data-role="content">
+            
+            <center>
+            <div>
+            <img src="img2.jpg" width="350px" height="350px" alt="">
+            <img src="img3.jpg" width="350px" height="350px" alt="">
+            <img src="image2.jpg" width="350px" height="350px" alt="">
+            
+        </div>
+    </center>
+        <div>
+            <
+        </div>
+        </div>
+        </div>
+        </body>
+        </html>
